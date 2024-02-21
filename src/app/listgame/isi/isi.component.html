@@ -1,0 +1,10 @@
+<div
+  class="mt-16 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-screen gap-4 justify-center"
+>
+  <div *ngFor="let item of game" class="bg-slate-300 p-2 content-center">
+    <img src="{{ item.thumbnail }}" alt="" />
+    <b>{{ item.title }}</b
+    ><br />
+    {{ item.short_description }}
+  </div>
+</div>
